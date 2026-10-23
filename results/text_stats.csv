@@ -12,68 +12,68 @@ text_id,candidate,district,source,subject,approx. word count,Affordability,Housi
 10,Michael Wallman,8,voter guide,statement,174,0,2,0,0,4,2,0,1,0,0,5,0,0,2,2,2,1,0,1,0,0,4,0,9
 11,Fred M Feller,8,voter guide,statement,183,1,5,1,1,3,3,1,0,0,1,0,1,2,0,0,5,0,0,0,0,1,10,0,4
 12,Mari Mendonca,4,voter guide,statement,199,2,7,1,2,1,4,1,0,0,0,2,0,1,0,1,1,0,7,1,1,0,7,0,5
-13,"John ""Steve"" Kromer",District 1,campaign website,Waterfront,393,3,1,0,1,0,1,0,5,0,0,1,0,1,0,9,0,0,0,1,9,0,2,0,0
-14,"John ""Steve"" Kromer",District 1,campaign website,Budget,647,3,0,0,23,6,0,0,0,0,0,2,0,1,0,0,0,0,0,2,0,0,4,0,0
-15,"John ""Steve"" Kromer",District 1,campaign website,Housing,392,2,3,0,0,0,0,4,0,0,0,20,0,2,0,0,0,0,0,1,0,0,2,0,0
-16,"John ""Steve"" Kromer",District 1,campaign website,Ballot Measures,858,5,0,0,3,0,0,3,0,0,0,4,0,4,0,0,0,0,0,3,0,0,17,0,3
-17,"John ""Steve"" Kromer",District 1,campaign website,Infrastructure,370,0,0,0,3,0,0,0,5,0,0,16,0,2,0,0,0,0,0,3,0,0,3,0,0
-18,"John ""Steve"" Kromer",District 1,campaign website,Golden Gate Fields,369,7,2,0,1,1,0,0,1,0,0,18,0,0,2,0,0,0,0,0,0,0,3,0,0
-19,"John ""Steve"" Kromer",District 1,campaign website,Surveillance,567,0,0,0,3,3,1,2,0,0,0,0,7,0,0,1,0,2,0,0,0,2,5,0,2
-20,"John ""Steve"" Kromer",District 1,campaign website,Zoning,849,6,13,0,4,0,5,1,4,0,0,8,0,0,0,0,1,0,0,2,0,1,7,0,1
-21,"John ""Steve"" Kromer",District 1,campaign website,Homelessness,740,0,7,0,3,1,3,0,0,1,9,4,0,0,0,0,0,0,0,0,0,3,7,0,0
-22,"John ""Steve"" Kromer",District 1,campaign website,Health,706,2,4,0,0,0,0,0,0,0,2,0,0,0,0,0,5,0,0,2,0,0,5,0,2
-23,"John ""Steve"" Kromer",District 1,campaign website,Accountability,688,0,6,0,6,0,0,0,0,1,7,0,0,0,0,1,0,0,0,1,0,1,5,0,0
-24,"John ""Steve"" Kromer",District 1,campaign website,Bike Lanes,765,2,2,0,0,6,0,3,7,0,0,12,0,1,0,1,0,0,0,3,7,7,25,1,0
-25,"John ""Steve"" Kromer",District 1,campaign website,Policing,703,0,0,0,3,7,0,1,0,0,0,0,1,1,0,2,0,0,1,0,0,0,3,0,0
-26,Daria Wrubel,District 1,campaign website,Pitch,300,0,1,1,0,0,2,1,0,0,0,0,1,2,0,4,6,2,0,1,0,0,0,8,10
-27,Daria Wrubel,District 1,campaign website,Surveillance,264,0,0,0,2,2,0,0,0,0,0,0,12,0,0,1,1,0,0,0,0,0,1,1,2
-28,Daria Wrubel,District 1,campaign website,Homelessness,1437,6,18,0,6,13,1,4,0,2,41,25,0,0,1,11,3,4,0,3,0,0,7,0,33
-29,Daria Wrubel,District 1,campaign website,Housing,335,4,12,0,0,2,5,4,2,0,3,9,0,0,1,0,5,1,0,0,0,0,8,0,22
-30,Daria Wrubel,District 1,campaign website,Safety,326,0,0,0,3,14,1,0,0,0,0,6,4,0,1,5,1,0,0,0,0,0,0,0,25
-31,Daria Wrubel,District 1,campaign website,Budget,189,0,0,0,2,0,1,2,0,0,0,1,0,1,0,0,3,0,0,1,0,0,4,0,15
-32,Laura Babitt,District 1,campaign website,Pitch,199,0,0,0,4,0,1,2,0,1,0,2,0,1,1,0,2,0,1,2,0,0,0,2,5
-33,Laura Babitt,District 1,campaign website,Housing,141,3,7,1,1,1,2,0,1,0,2,3,0,0,0,0,4,0,0,0,0,0,0,0,2
-34,Laura Babitt,District 1,campaign website,Safety,91,0,0,1,1,6,1,1,0,0,0,3,1,0,0,0,2,0,0,0,0,0,2,0,0
-35,Laura Babitt,District 1,campaign website,Infrastructure,108,1,1,1,0,1,0,1,4,2,0,7,0,0,0,2,2,0,0,0,2,0,1,0,2
-36,Laura Babitt,District 1,campaign website,Local Businesses,82,0,2,0,0,1,6,1,2,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1
-37,Laura Babitt,District 1,campaign website,Accountability,145,1,0,0,4,0,0,0,0,0,0,1,0,4,0,0,0,1,0,2,0,0,2,0,3
-38,Ross Bernet,District 1,campaign website,Pitch,152,6,2,0,1,2,0,0,0,1,1,3,1,1,0,0,0,0,0,2,0,0,11,0,4
-39,Ross Bernet,District 1,campaign website,Housing,230,9,16,0,0,0,2,1,1,0,0,4,0,0,2,0,3,0,0,0,0,0,1,0,7
-40,Ross Bernet,District 1,campaign website,Homelessness,479,1,15,0,2,2,1,4,0,0,14,8,0,0,0,1,5,1,0,2,0,0,5,0,16
-41,Ross Bernet,District 1,campaign website,Infrastructure,220,0,0,3,1,4,0,0,1,0,0,12,0,1,1,0,2,0,0,2,0,1,1,0,8
-42,Ross Bernet,District 1,campaign website,Safety,283,0,1,0,3,15,2,0,0,0,0,2,2,0,1,1,4,1,0,0,0,0,2,0,5
-43,Ross Bernet,District 1,campaign website,Accountability,158,1,1,0,2,0,5,0,0,0,0,1,0,1,0,0,0,0,0,1,0,2,1,0,2
-44,Ross Bernet,District 1,campaign website,Environment,169,0,1,0,0,0,1,1,1,1,0,11,0,0,0,2,5,0,0,0,2,0,2,0,7
-45,Moni Gangopadhyay,District 1,campaign website,Pitch,221,5,1,3,1,0,0,2,1,2,1,2,0,0,3,2,2,0,0,2,0,2,8,0,14
-46,Moni Gangopadhyay,District 1,campaign website,Platform,172,4,3,0,2,0,4,2,2,0,0,5,0,2,0,1,1,1,0,2,0,0,6,0,7
-47,Moni Gangopadhyay,District 1,campaign website,Policies,464,1,6,1,0,2,12,1,1,3,4,10,5,4,1,0,8,0,0,5,2,1,0,1,12
-48,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Pitch,209,1,3,2,0,1,9,2,0,0,0,0,0,0,1,1,1,0,0,0,0,1,13,1,1
-49,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Surveillance,572,2,0,0,2,6,0,0,0,0,0,0,30,6,0,1,0,0,0,2,0,0,0,10,0
-50,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Housing,124,3,12,0,2,0,2,1,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0
-51,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Safety,95,0,2,0,1,5,0,0,1,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,0
-52,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Small Businesses,98,2,1,1,0,0,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-53,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Accountability,110,1,1,0,4,0,0,4,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
-54,Majdi “Gaith” Abuhamdieh,District 4,campaign website,Infrastructure,99,0,2,1,0,2,0,0,1,2,0,9,0,0,0,0,2,0,0,1,2,0,0,0,0
-55,Igor A. Tregub,District 4,campaign website,Pitch,1245,13,19,8,1,11,13,9,11,8,9,16,0,7,0,2,15,1,6,4,0,6,44,2,38
-56,Igor A. Tregub,District 4,campaign website,Policies,1929,6,17,6,2,8,13,5,2,1,9,8,9,13,2,1,11,1,1,4,4,3,71,6,15
-57,Igor A. Tregub,District 4,campaign website,Accomplishments,2358,28,49,9,15,29,21,26,18,14,3,23,4,8,0,7,34,3,11,5,0,5,0,16,15
-58,Aidan Hill,District 7,campaign website,Platform,448,4,14,2,0,0,0,1,0,0,0,7,0,2,1,1,8,0,0,0,0,0,4,0,0
-59,Aidan Hill,District 7,campaign website,Housing,122,2,11,0,0,0,0,0,1,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,0
-60,Aidan Hill,District 7,campaign website,Infrastructure,164,1,1,2,0,0,0,0,0,0,0,4,0,0,0,0,3,0,0,0,0,0,1,0,0
-61,Aidan Hill,District 7,campaign website,Services,177,0,2,2,0,0,1,1,1,0,0,4,0,0,2,0,4,0,0,0,0,0,1,0,0
-62,Syrak Micael,District 7,campaign website,Pitch,591,8,15,4,2,3,0,3,0,1,0,1,0,4,19,1,8,0,2,6,0,3,38,0,6
-63,Syrak Micael,District 7,campaign website,Housing,309,5,22,1,1,1,4,3,5,1,0,0,0,0,6,0,1,1,1,0,0,0,5,0,1
-64,Syrak Micael,District 7,campaign website,Safety,237,0,1,1,2,11,2,0,2,0,0,3,1,0,2,2,12,1,0,3,0,0,1,0,4
-65,Syrak Micael,District 7,campaign website,Labor,299,4,2,0,0,1,6,8,0,0,0,0,0,0,2,1,6,0,0,1,0,2,3,0,1
-66,Mark Humbert,District 8,campaign website,Pitch,343,1,4,0,1,2,0,1,0,0,0,6,0,1,0,1,3,0,0,0,1,3,17,0,12
-67,Mark Humbert,District 8,campaign website,Accomplishments,1445,5,32,0,3,13,2,2,20,1,0,16,0,7,1,4,10,0,0,5,3,3,0,10,4
-68,Mark Humbert,District 9,campaign website,Zoning,753,1,28,2,0,0,4,3,5,0,0,0,0,1,0,1,4,0,1,3,0,1,29,0,11
-69,Mark Humbert,District 8,campaign website,Surveillance,353,0,0,0,0,4,1,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,9,0,6
-70,Mark Humbert,District 8,campaign website,Willard Pool,225,0,0,0,0,0,0,0,0,0,0,1,0,2,5,5,0,0,0,0,5,1,4,0,1
-71,Michael Wallman,District 8,campaign website,Pitch,362,1,7,2,0,0,1,0,4,0,0,4,0,1,6,0,4,0,1,0,0,2,17,0,9
-72,Michael Wallman,District 8,campaign website,Platform,279,0,3,0,0,1,1,2,0,0,0,8,0,0,6,2,2,0,0,0,2,0,0,0,1
-73,Mari Mendonca,District 8,campaign website,Pitch,136,0,0,2,0,0,0,0,0,1,0,0,0,2,0,2,2,0,1,0,0,0,1,0,10
-74,Mari Mendonca,District 8,campaign website,Housing,324,4,21,1,0,0,2,2,0,0,0,0,0,2,0,3,5,0,0,0,0,0,2,0,15
-75,Mari Mendonca,District 8,campaign website,Small Businesses,195,0,1,2,0,0,6,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,4,0,5
-76,Mari Mendonca,District 8,campaign website,Policing,56,0,2,0,0,4,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,2
-77,Mari Mendonca,District 8,campaign website,Infrastructure,40,0,1,1,0,2,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+13,"John ""Steve"" Kromer",1,campaign website,Waterfront,393,3,1,0,1,0,1,0,5,0,0,1,0,1,0,9,0,0,0,1,9,0,2,0,0
+14,"John ""Steve"" Kromer",1,campaign website,Budget,647,3,0,0,23,6,0,0,0,0,0,2,0,1,0,0,0,0,0,2,0,0,4,0,0
+15,"John ""Steve"" Kromer",1,campaign website,Housing,391,2,3,0,0,0,0,4,0,0,0,20,0,2,0,0,0,0,0,1,0,0,2,0,0
+16,"John ""Steve"" Kromer",1,campaign website,Ballot Measures,858,5,0,0,3,0,0,3,0,0,0,4,0,4,0,0,0,0,0,3,0,0,17,0,3
+17,"John ""Steve"" Kromer",1,campaign website,Infrastructure,370,0,0,0,3,0,0,0,5,0,0,16,0,2,0,0,0,0,0,3,0,0,3,0,0
+18,"John ""Steve"" Kromer",1,campaign website,Golden Gate Fields,364,7,2,0,1,1,0,0,1,0,0,18,0,0,2,0,0,0,0,0,0,0,3,0,0
+19,"John ""Steve"" Kromer",1,campaign website,Surveillance,567,0,0,0,3,3,1,2,0,0,0,0,7,0,0,1,0,2,0,0,0,2,5,0,2
+20,"John ""Steve"" Kromer",1,campaign website,Zoning,848,6,13,0,4,0,5,1,4,0,0,8,0,0,0,0,1,0,0,2,0,1,7,0,1
+21,"John ""Steve"" Kromer",1,campaign website,Homelessness,740,0,7,0,3,1,3,0,0,1,9,4,0,0,0,0,0,0,0,0,0,3,7,0,0
+22,"John ""Steve"" Kromer",1,campaign website,Health,706,2,4,0,0,0,0,0,0,0,2,0,0,0,0,0,5,0,0,2,0,0,5,0,2
+23,"John ""Steve"" Kromer",1,campaign website,Accountability,688,0,6,0,6,0,0,0,0,1,7,0,0,0,0,1,0,0,0,1,0,1,5,0,0
+24,"John ""Steve"" Kromer",1,campaign website,Bike Lanes,765,2,2,0,0,6,0,3,7,0,0,12,0,1,0,1,0,0,0,3,7,7,25,1,0
+25,"John ""Steve"" Kromer",1,campaign website,Policing,703,0,0,0,3,7,0,1,0,0,0,0,1,1,0,2,0,0,1,0,0,0,3,0,0
+26,Daria Wrubel,1,campaign website,Pitch,298,0,1,1,0,0,2,1,0,0,0,0,1,2,0,4,6,2,0,1,0,0,0,8,10
+27,Daria Wrubel,1,campaign website,Surveillance,264,0,0,0,2,2,0,0,0,0,0,0,12,0,0,1,1,0,0,0,0,0,1,1,2
+28,Daria Wrubel,1,campaign website,Homelessness,1436,6,18,0,6,13,1,4,0,2,41,25,0,0,1,11,3,4,0,3,0,0,7,0,33
+29,Daria Wrubel,1,campaign website,Housing,335,4,12,0,0,2,5,4,2,0,3,9,0,0,1,0,5,1,0,0,0,0,8,0,22
+30,Daria Wrubel,1,campaign website,Safety,326,0,0,0,3,14,1,0,0,0,0,6,4,0,1,5,1,0,0,0,0,0,0,0,25
+31,Daria Wrubel,1,campaign website,Budget,189,0,0,0,2,0,1,2,0,0,0,1,0,1,0,0,3,0,0,1,0,0,4,0,15
+32,Laura Babitt,1,campaign website,Pitch,198,0,0,0,4,0,1,2,0,1,0,2,0,1,1,0,2,0,1,2,0,0,0,2,5
+33,Laura Babitt,1,campaign website,Housing,141,3,7,1,1,1,2,0,1,0,2,3,0,0,0,0,4,0,0,0,0,0,0,0,2
+34,Laura Babitt,1,campaign website,Safety,91,0,0,1,1,6,1,1,0,0,0,3,1,0,0,0,2,0,0,0,0,0,2,0,0
+35,Laura Babitt,1,campaign website,Infrastructure,108,1,1,1,0,1,0,1,4,2,0,7,0,0,0,2,2,0,0,0,2,0,1,0,2
+36,Laura Babitt,1,campaign website,Local Businesses,82,0,2,0,0,1,6,1,2,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1
+37,Laura Babitt,1,campaign website,Accountability,145,1,0,0,4,0,0,0,0,0,0,1,0,4,0,0,0,1,0,2,0,0,2,0,3
+38,Ross Bernet,1,campaign website,Pitch,152,6,2,0,1,2,0,0,0,1,1,3,1,1,0,0,0,0,0,2,0,0,11,0,4
+39,Ross Bernet,1,campaign website,Housing,230,9,16,0,0,0,2,1,1,0,0,4,0,0,2,0,3,0,0,0,0,0,1,0,7
+40,Ross Bernet,1,campaign website,Homelessness,476,1,15,0,2,2,1,4,0,0,14,8,0,0,0,1,5,1,0,2,0,0,5,0,16
+41,Ross Bernet,1,campaign website,Infrastructure,219,0,0,3,1,4,0,0,1,0,0,12,0,1,1,0,2,0,0,2,0,1,1,0,8
+42,Ross Bernet,1,campaign website,Safety,282,0,1,0,3,15,2,0,0,0,0,2,2,0,1,1,4,1,0,0,0,0,2,0,5
+43,Ross Bernet,1,campaign website,Accountability,158,1,1,0,2,0,5,0,0,0,0,1,0,1,0,0,0,0,0,1,0,2,1,0,2
+44,Ross Bernet,1,campaign website,Environment,168,0,1,0,0,0,1,1,1,1,0,11,0,0,0,2,5,0,0,0,2,0,2,0,7
+45,Moni Gangopadhyay,1,campaign website,Pitch,221,5,1,3,1,0,0,2,1,2,1,2,0,0,3,2,2,0,0,2,0,2,8,0,14
+46,Moni Gangopadhyay,1,campaign website,Platform,172,4,3,0,2,0,4,2,2,0,0,5,0,2,0,1,1,1,0,2,0,0,6,0,7
+47,Moni Gangopadhyay,1,campaign website,Policies,463,1,6,1,0,2,12,1,1,3,4,10,5,4,1,0,8,0,0,5,2,1,0,1,12
+48,Majdi “Gaith” Abuhamdieh,4,campaign website,Pitch,209,1,3,2,0,1,9,2,0,0,0,0,0,0,1,1,1,0,0,0,0,1,13,1,1
+49,Majdi “Gaith” Abuhamdieh,4,campaign website,Surveillance,571,2,0,0,2,6,0,0,0,0,0,0,30,6,0,1,0,0,0,2,0,0,0,10,0
+50,Majdi “Gaith” Abuhamdieh,4,campaign website,Housing,123,3,12,0,2,0,2,1,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0
+51,Majdi “Gaith” Abuhamdieh,4,campaign website,Safety,95,0,2,0,1,5,0,0,1,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+52,Majdi “Gaith” Abuhamdieh,4,campaign website,Small Businesses,98,2,1,1,0,0,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+53,Majdi “Gaith” Abuhamdieh,4,campaign website,Accountability,110,1,1,0,4,0,0,4,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+54,Majdi “Gaith” Abuhamdieh,4,campaign website,Infrastructure,99,0,2,1,0,2,0,0,1,2,0,9,0,0,0,0,2,0,0,1,2,0,0,0,0
+55,Igor A. Tregub,4,campaign website,Pitch,1241,13,19,8,1,11,13,9,11,8,9,16,0,7,0,2,15,1,6,4,0,6,44,2,38
+56,Igor A. Tregub,4,campaign website,Policies,1927,6,17,6,2,8,13,5,2,1,9,8,9,13,2,1,11,1,1,4,4,3,71,6,15
+57,Igor A. Tregub,4,campaign website,Accomplishments,2354,28,49,9,15,29,21,26,18,14,3,23,4,8,0,7,34,3,11,5,0,5,0,16,15
+58,Aidan Hill,7,campaign website,Platform,448,4,14,2,0,0,0,1,0,0,0,7,0,2,1,1,8,0,0,0,0,0,4,0,0
+59,Aidan Hill,7,campaign website,Housing,122,2,11,0,0,0,0,0,1,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,0
+60,Aidan Hill,7,campaign website,Infrastructure,164,1,1,2,0,0,0,0,0,0,0,4,0,0,0,0,3,0,0,0,0,0,1,0,0
+61,Aidan Hill,7,campaign website,Services,177,0,2,2,0,0,1,1,1,0,0,4,0,0,2,0,4,0,0,0,0,0,1,0,0
+62,Syrak Micael,7,campaign website,Pitch,589,8,15,4,2,3,0,3,0,1,0,1,0,4,19,1,8,0,2,6,0,3,38,0,6
+63,Syrak Micael,7,campaign website,Housing,309,5,22,1,1,1,4,3,5,1,0,0,0,0,6,0,1,1,1,0,0,0,5,0,1
+64,Syrak Micael,7,campaign website,Safety,236,0,1,1,2,11,2,0,2,0,0,3,1,0,2,2,12,1,0,3,0,0,1,0,4
+65,Syrak Micael,7,campaign website,Labor,298,4,2,0,0,1,6,8,0,0,0,0,0,0,2,1,6,0,0,1,0,2,3,0,1
+66,Mark Humbert,8,campaign website,Pitch,339,1,4,0,1,2,0,1,0,0,0,6,0,1,0,1,3,0,0,0,1,3,17,0,12
+67,Mark Humbert,8,campaign website,Accomplishments,1444,5,32,0,3,13,2,2,20,1,0,16,0,7,1,4,10,0,0,5,3,3,0,10,4
+68,Mark Humbert,9,campaign website,Zoning,753,1,28,2,0,0,4,3,5,0,0,0,0,1,0,1,4,0,1,3,0,1,29,0,11
+69,Mark Humbert,8,campaign website,Surveillance,353,0,0,0,0,4,1,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,9,0,6
+70,Mark Humbert,8,campaign website,Willard Pool,223,0,0,0,0,0,0,0,0,0,0,1,0,2,3,5,0,0,0,0,5,1,4,0,1
+71,Michael Wallman,8,campaign website,Pitch,361,1,7,2,0,0,1,0,4,0,0,4,0,1,5,0,4,0,1,0,0,2,17,0,9
+72,Michael Wallman,8,campaign website,Platform,278,0,3,0,0,1,1,2,0,0,0,8,0,0,6,2,2,0,0,0,2,0,0,0,1
+73,Mari Mendonca,8,campaign website,Pitch,136,0,0,2,0,0,0,0,0,1,0,0,0,2,0,2,2,0,1,0,0,0,1,0,10
+74,Mari Mendonca,8,campaign website,Housing,324,4,21,1,0,0,2,2,0,0,0,0,0,2,0,3,5,0,0,0,0,0,2,0,15
+75,Mari Mendonca,8,campaign website,Small Businesses,195,0,1,2,0,0,6,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,4,0,5
+76,Mari Mendonca,8,campaign website,Policing,56,0,2,0,0,4,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,2
+77,Mari Mendonca,8,campaign website,Infrastructure,40,0,1,1,0,2,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1

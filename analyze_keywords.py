@@ -54,11 +54,13 @@ def candidate_keyword_count(text_bank):
         ).sum()
         candidate_result = {
             "candidate" : candidate,
+            "district": candidate_text["district"].iloc[0],
             "word count": total_wc,
             "total sentences": total_sents
         }
         candidate_result_norm = {
                     "candidate" : candidate,
+                    "district": candidate_text["district"].iloc[0],
                     "word count": total_wc,
                     "total sentences": total_sents
                 }
@@ -84,6 +86,7 @@ def candidate_sentence_pct(text_bank):
         total_wc = valid_texts.apply(lambda text: len(str(text).split())).sum()
         candidate_result = {
             "candidate" : candidate,
+            "district": candidate_text["district"].iloc[0],
             "word count": total_wc,
             "total sentences": total_sents
         }
@@ -112,6 +115,7 @@ def collect_sentences(text_bank, topics):
                 if matched_kws:
                     results.append({
                         "candidate": row["candidate"],
+                        "district": row["district"],
                         "source": row["source"],
                         "subject": row.get("subject", ""),
                         "topic": topic,

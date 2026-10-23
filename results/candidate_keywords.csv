@@ -1,14 +1,14 @@
-candidate,word count,total sentences,Affordability total keywords,Housing total keywords,Equity total keywords,Accountability total keywords,Public Safety total keywords,Local Economy total keywords,Labor total keywords,Transportation total keywords,Environment total keywords,Homelessness total keywords,Infrastructure total keywords,Surveillance total keywords,Governance total keywords,Education total keywords,Policy total keywords,Unity total keywords,Trust total keywords,Leadership total keywords,Commitment total keywords,Berkeley Locations total keywords,Second person pronouns total keywords,First person pronouns total keywords,Third person pronouns total keywords,Group pronouns total keywords
-Aidan Hill,1094,63,8,35,6,0,0,5,4,2,0,3,27,1,3,4,1,19,0,0,2,0,1,18,0,0
-Daria Wrubel,3044,146,10,34,1,13,35,10,12,2,2,44,41,18,4,5,21,23,7,1,6,0,2,30,9,116
-Fred M Feller,183,8,1,5,1,1,3,3,1,0,0,1,0,1,2,0,0,5,0,0,0,0,1,10,0,4
-Igor A. Tregub,5763,240,51,90,25,19,50,50,43,34,24,22,53,13,29,3,10,63,5,19,13,4,17,121,24,78
-"John ""Steve"" Kromer",8248,525,30,40,0,51,24,10,15,22,2,18,96,8,16,2,14,10,3,1,21,16,18,103,1,13
-Laura Babitt,980,60,7,15,3,14,10,12,5,7,5,3,19,1,7,4,2,13,1,4,8,2,2,14,2,19
-Majdi “Gaith” Abuhamdieh,1513,69,9,24,6,12,18,27,14,2,3,1,11,33,8,3,4,9,3,1,6,2,1,21,11,4
-Mari Mendonca,950,40,6,32,7,2,7,15,3,2,2,1,3,1,6,1,6,10,0,8,1,1,0,14,0,38
-Mark Humbert,3336,109,8,67,3,4,24,9,8,28,1,0,30,3,12,7,12,19,2,1,10,10,10,66,10,41
-Michael Wallman,815,38,1,12,2,0,5,4,2,5,0,0,17,0,1,14,4,8,1,1,1,2,2,21,0,19
-Moni Gangopadhyay,1058,67,13,14,4,5,2,17,9,4,9,6,21,6,8,4,5,15,1,0,11,4,4,21,1,44
-Ross Bernet,1889,87,20,39,3,10,25,12,9,4,7,16,46,3,4,4,4,24,2,0,8,2,4,35,0,58
-Syrak Micael,1693,57,21,53,8,6,17,12,19,7,3,0,5,1,7,37,5,30,2,3,12,0,5,60,0,13
+candidate,district,word count,total sentences,Affordability total keywords,Housing total keywords,Equity total keywords,Accountability total keywords,Public Safety total keywords,Local Economy total keywords,Labor total keywords,Transportation total keywords,Environment total keywords,Homelessness total keywords,Infrastructure total keywords,Surveillance total keywords,Governance total keywords,Education total keywords,Policy total keywords,Unity total keywords,Trust total keywords,Leadership total keywords,Commitment total keywords,Berkeley Locations total keywords,Second person pronouns total keywords,First person pronouns total keywords,Third person pronouns total keywords,Group pronouns total keywords
+Aidan Hill,7,1094,63,8,35,6,0,0,5,4,2,0,3,27,1,3,4,1,19,0,0,2,0,1,18,0,0
+Daria Wrubel,1,3041,146,10,34,1,13,35,10,12,2,2,44,41,18,4,5,21,23,7,1,6,0,2,30,9,116
+Fred M Feller,8,183,8,1,5,1,1,3,3,1,0,0,1,0,1,2,0,0,5,0,0,0,0,1,10,0,4
+Igor A. Tregub,4,5753,240,51,90,25,19,50,50,43,34,24,22,53,13,29,3,10,63,5,19,13,4,17,121,24,78
+"John ""Steve"" Kromer",1,8241,525,30,40,0,51,24,10,15,22,2,18,96,8,16,2,14,10,3,1,21,16,18,103,1,13
+Laura Babitt,1,979,60,7,15,3,14,10,12,5,7,5,3,19,1,7,4,2,13,1,4,8,2,2,14,2,19
+Majdi “Gaith” Abuhamdieh,4,1511,69,9,24,6,12,18,27,14,2,3,1,11,33,8,3,4,9,3,1,6,2,1,21,11,4
+Mari Mendonca,4,950,40,6,32,7,2,7,15,3,2,2,1,3,1,6,1,6,10,0,8,1,1,0,14,0,38
+Mark Humbert,8,3329,109,8,67,3,4,24,9,8,28,1,0,30,3,12,5,12,19,2,1,10,10,10,66,10,41
+Michael Wallman,8,813,38,1,12,2,0,5,4,2,5,0,0,17,0,1,13,4,8,1,1,1,2,2,21,0,19
+Moni Gangopadhyay,1,1057,67,13,14,4,5,2,17,9,4,9,6,21,6,8,4,5,15,1,0,11,4,4,21,1,44
+Ross Bernet,1,1883,87,20,39,3,10,25,12,9,4,7,16,46,3,4,4,4,24,2,0,8,2,4,35,0,58
+Syrak Micael,7,1689,57,21,53,8,6,17,12,19,7,3,0,5,1,7,37,5,30,2,3,12,0,5,60,0,13
