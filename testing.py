@@ -60,8 +60,26 @@ def analyze_statement(text):
         **pos_counts
     }
 
-results = df["Statement"].apply(analyze_statement)
-features = pd.DataFrame(results.tolist())
-output = pd.concat([df.reset_index(drop=True), features], axis=1)
-output.to_csv("results.csv", index=False)
-print(output)
+# results = df["Statement"].apply(analyze_statement)
+# features = pd.DataFrame(results.tolist())
+# output = pd.concat([df.reset_index(drop=True), features], axis=1)
+# output.to_csv("results.csv", index=False)
+
+def print_token_info(text):
+    doc = nlp(text)
+    tokens = [token for token in doc if not token.is_punct and not token.is_space]
+    for token in tokens:
+        print(token.text, token.pos_, token.dep_, token.lemma)
+    return
+
+def lemmatize_df(dat):
+    row_count = len(dat)
+
+    for i in range(0, row_count):
+        text = dat.at[i, "Statement"]
+        doc = nlp(text)
+        lemmas = [token.lemma_ for token in doc if not token.is_punct and not token.is_space]
+        dat.at[i, "Lemmatized"] = " ".join(lemmas)
+    return dat
+
+ldf = lemmatize_df(df)
