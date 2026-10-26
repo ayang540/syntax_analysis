@@ -18,12 +18,18 @@ nlp = spacy.load("en_core_web_sm")
 VOTER_GUIDE = "data/voter_guide.csv"
 WEBSITE_TEXT = "data/website_text.csv"
 TEXT_BANK = "data/text_bank.csv"
+VOTER_GUIDE_P = "data/voter_guide_processed.csv"
+WEBSITE_P = "data/website_processed.csv"
 
 TEXT_STATS = "results/text_stats.csv"
 MATCHING_SENTENCES = "results/matching_sentences.csv"
 CANDIDATE_KEYWORDS = "results/candidate_keywords.csv"
 CANDIDATE_KEYWORDS_NORM = "results/candidate_keywords_norm.csv"
 CANDIDATE_SENTENCES = "results/candidate_sentences.csv"
+STATEMENT_KWS = "results/statement_keywords.csv"
+STATEMENT_KWS_NORM = "results/statement_keywords_norm.csv"
+WEBSITE_KWS = "results/website_keywords.csv"
+WEBSITE_KWS_NORM = "results/website_keywords_norm.csv"
 
 guide = pd.read_csv(VOTER_GUIDE)
 website = pd.read_csv(WEBSITE_TEXT)
@@ -32,6 +38,14 @@ guide = guide.rename(columns={"statement" : "text"})
 guide["source"] = "voter guide"
 guide["subject"] = "statement"
 website["source"] = "campaign website"
+
+guide = guide[guide["text"] != ""].copy()
+guide["text id"] = range(len(guide))
+guide.to_csv(VOTER_GUIDE_P, index=False)
+
+website = website[website["text"] != ""].copy()
+website["text id"] = range(len(website))
+website.to_csv(WEBSITE_P, index=False)
 
 text_bank = pd.concat([guide, website])
 text_bank = text_bank[text_bank["text"] != ""].copy()
@@ -50,3 +64,12 @@ candidate_keywords.to_csv(CANDIDATE_KEYWORDS, index=False)
 candidate_keywords_norm.to_csv(CANDIDATE_KEYWORDS_NORM, index=False)
 candidate_sentences = analyze_keywords.candidate_sentence_pct(text_bank)
 candidate_sentences.to_csv(CANDIDATE_SENTENCES, index=False)
+
+statement_kws, statement_kws_norm = analyze_keywords.candidate_keyword_count(guide)
+statement_kws.to_csv(STATEMENT_KWS, index=False)
+statement_kws_norm.to_csv(STATEMENT_KWS_NORM, index=False)
+
+website_kws, website_kws_norm = analyze_keywords.candidate_keyword_count(website)
+website_kws.to_csv(WEBSITE_KWS, index=False)
+website_kws_norm.to_csv(WEBSITE_KWS_NORM, index=False)
+
