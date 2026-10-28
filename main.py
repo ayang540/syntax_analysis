@@ -10,8 +10,8 @@
 import pandas as pd
 import spacy
 
-import analyze_keywords
-from topics import TOPICS
+import analysis.analyze_keywords as analyze_keywords
+from analysis.topics import TOPICS
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -25,7 +25,10 @@ TEXT_STATS = "results/text_stats.csv"
 MATCHING_SENTENCES = "results/matching_sentences.csv"
 CANDIDATE_KEYWORDS = "results/candidate_keywords.csv"
 CANDIDATE_KEYWORDS_NORM = "results/candidate_keywords_norm.csv"
+CANDIDATE_SENTENCES_PCT = "results/candidate_sentences_pct.csv"
 CANDIDATE_SENTENCES = "results/candidate_sentences.csv"
+DISTRICT_SENTENCES = "results/district_sentences.csv"
+DISTRICT_SENTENCES_PCT = "results/district_sentences_pct.csv"
 STATEMENT_KWS = "results/statement_keywords.csv"
 STATEMENT_KWS_NORM = "results/statement_keywords_norm.csv"
 WEBSITE_KWS = "results/website_keywords.csv"
@@ -62,8 +65,13 @@ matching_sentences.to_csv(MATCHING_SENTENCES, index=False)
 candidate_keywords, candidate_keywords_norm = analyze_keywords.candidate_keyword_count(text_bank)
 candidate_keywords.to_csv(CANDIDATE_KEYWORDS, index=False)
 candidate_keywords_norm.to_csv(CANDIDATE_KEYWORDS_NORM, index=False)
-candidate_sentences = analyze_keywords.candidate_sentence_pct(text_bank)
+candidate_sentences, candidate_sentences_pct = analyze_keywords.candidate_sentences(text_bank)
 candidate_sentences.to_csv(CANDIDATE_SENTENCES, index=False)
+candidate_sentences_pct.to_csv(CANDIDATE_SENTENCES_PCT, index=False)
+
+district_sentences, district_sentences_pct = analyze_keywords.district_sentences(candidate_sentences)
+district_sentences.to_csv(DISTRICT_SENTENCES, index=False)
+district_sentences_pct.to_csv(DISTRICT_SENTENCES_PCT, index=False)
 
 statement_kws, statement_kws_norm = analyze_keywords.candidate_keyword_count(guide)
 statement_kws.to_csv(STATEMENT_KWS, index=False)
@@ -72,4 +80,3 @@ statement_kws_norm.to_csv(STATEMENT_KWS_NORM, index=False)
 website_kws, website_kws_norm = analyze_keywords.candidate_keyword_count(website)
 website_kws.to_csv(WEBSITE_KWS, index=False)
 website_kws_norm.to_csv(WEBSITE_KWS_NORM, index=False)
-

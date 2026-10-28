@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import spacy
 
-from topics import TOPICS
+from analysis.topics import TOPICS
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -74,10 +74,11 @@ def candidate_keyword_count(text_bank):
             candidate_result_norm[topic + " keyword per 1000 words"] = norm_count
         results.append(candidate_result)
         results_norm.append(candidate_result_norm)
-    return pd.DataFrame(results), pd.DataFrame(results_norm)
+    return pd.DataFrame(results), pd.DataFrame(results_norm)    
 
-def candidate_sentence_pct(text_bank):
+def candidate_sentences(text_bank):
     results = []
+    results_pct = []
     for candidate, candidate_text in text_bank.groupby("candidate"):
         docs = [nlp(str(text)) for text in candidate_text["text"] if pd.notna(text) and str(text).strip()]
         sentences = [sent for doc in docs for sent in doc.sents if sent.text.strip()]
@@ -90,15 +91,23 @@ def candidate_sentence_pct(text_bank):
             "word count": total_wc,
             "total sentences": total_sents
         }
+        candidate_result_pct = {
+            "candidate" : candidate,
+            "district": candidate_text["district"].iloc[0],
+            "word count": total_wc,
+            "total sentences": total_sents
+        }
         for topic, phrases in TOPICS.items():
             matching_sents = sum(1 for sent in sentences if sent_matches(sent, phrases))
             if total_sents > 0:
                 pct = (matching_sents / total_sents * 100)
             else:
                 pct = 0
-            candidate_result[topic + r" % of sentences"] = pct
+            candidate_result[topic + r" matching sentences"] = matching_sents
+            candidate_result_pct[topic + r" % of sentences"] = pct
         results.append(candidate_result)
-    return pd.DataFrame(results)
+        results_pct.append(candidate_result_pct)
+    return pd.DataFrame(results), pd.DataFrame(results_pct)
 
 def collect_sentences(text_bank, topics):
     results = []
@@ -142,3 +151,28 @@ def get_match_kws(sent, kws):
 
 def sent_matches(sent, kws):
     return len(get_match_kws(sent, kws)) > 0
+
+def district_sentences(text_bank):
+    results = []
+    results_pct = []
+    for district, district_text in text_bank.groupby("district"):
+        total_sents = district_text["total sentences"].sum()
+        total_wc = district_text["word count"].sum()
+        district_result = {
+            "district" : district,
+            "word count": total_wc,
+            "total sentences": total_sents
+        }
+        district_result_pct = {
+            "district": district,
+            "word count": total_wc,
+            "total sentences": total_sents
+        }
+        for topic, phrases in TOPICS.items():
+            matching_sents = district_text[topic + " matching sentences"].sum()
+            pct = 100 * matching_sents / total_sents if total_sents > 0 else 0
+            district_result[topic + " matching sentences"] = matching_sents
+            district_result_pct[topic + r" % of sentences"] = pct
+        results.append(district_result)
+        results_pct.append(district_result_pct)
+    return pd.DataFrame(results), pd.DataFrame(results_pct)
